@@ -1,0 +1,5 @@
+./node_modules/
+./output/index_bundle.js
+
+# dotenv environment variables file
+.env
