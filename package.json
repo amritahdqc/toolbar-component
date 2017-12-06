@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack -d --watch",
     "build": "webpack -p",
-    "start http": "node http-server.js",
+    // "start http": "node http-server.js",
     "start": "node server.js",
     "dev local": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.config.js"
   },
