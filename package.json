@@ -1,0 +1,39 @@
+{
+  "name": "toolbar-component",
+  "version": "1.0.0",
+  "description": "Toolbar component",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amritahdqc/toolbar-component"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p",
+    "start http": "node http-server.js",
+    "start": "node server.js",
+    "dev local": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.config.js"
+  },
+  "keywords": [
+    "react",
+    "styled",
+    "components"
+  ],
+  "author": "QuoteCenter",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.0.0",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "method-override": "^2.3.9"
+  }
+}
