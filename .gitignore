@@ -1,5 +1,8 @@
-./node_modules/
-./output/index_bundle.js
+node_modules/
+output/index_bundle.js
 
 # dotenv environment variables file
 .env
+
+#Mac added files
+.DS_Store
