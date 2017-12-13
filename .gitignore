@@ -1,5 +1,17 @@
 ./node_modules/
+node_modules/
 ./output/index_bundle.js
 
 # dotenv environment variables file
 .env
+
+
+.DS_Store
+
+# Webpack DLLs
+src/client/vendors/dll/
+
+# Text Editor Settings
+.vscode/
+
+npm-debug.log.*
