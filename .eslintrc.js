@@ -14,7 +14,10 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "jsx",
+        "flow"
+
     ],
     "rules": {
         "arrow-body-style": 0,
@@ -57,6 +60,7 @@ module.exports = {
         "prefer-destructuring": 0,
         "react/prefer-stateless-function": [0, { "ignorePureComponents": 1 }],
         "react/forbid-prop-types": 0,
+        "react/prop-types": [0, { "ignore": 1}],
         "react/jsx-filename-extension": 0,
         "react/no-deprecated": 2
     },

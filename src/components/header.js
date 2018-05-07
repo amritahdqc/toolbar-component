@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-export default class Header extends Component {
-    render() {
-        return (
-          <React.Fragment>
-            <h2>Welcome to React</h2>
-            <h2>These headings are part of a fragment...</h2>
-        And some text....
-          </React.Fragment>
-        );
-    }
+const Header = ({ heading }) => {
+    return (
+        <h1>{this.props.heading}</h1>
+    )
 }
+Header.propTypes = {
+    heading: PropTypes.string.isRequired
+};
+
+export default Header;
